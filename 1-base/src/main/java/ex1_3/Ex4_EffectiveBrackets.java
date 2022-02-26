@@ -1,3 +1,6 @@
+package ex1_3;
+
+import jdk.nashorn.internal.ir.Node;
 
 /**
  * @author liuzk
@@ -30,7 +33,7 @@ public class Ex4_EffectiveBrackets {
         }
         return stack.isEmpty();
     }
-
+    //效率高
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<Character>();
         for (char a : s.toCharArray()) {
